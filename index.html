@@ -27,10 +27,10 @@
 <!-- NAVBAR
 ================================================== -->
   <body>
-    <div class="navbar-wrapper">
+    <div class="navbar-wrapper" >
       <div class="container">
 
-        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -44,9 +44,10 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about" id="menu-about">About</a></li>
-                <li><a href="#contact" id="menu-contact">Contact</a></li>
+                <li><a href="#" id="menu-home">Home</a></li>
+                <li><a href="#" id="menu-about">About</a></li>
+                <li><a href="#" id="menu-team">Team</a></li>
+                <li><a href="#" id="menu-contact">Contact</a></li>
                 <!-- <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
@@ -84,9 +85,8 @@
          
           <div class="container">
             <div class="carousel-caption">
-              <h1>Example headline.</h1>
-              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              <h1>Improving Deaf-Blindness</h1>
+              <p>Between <b>42,000</b> and <b>700,000</b> individuals in the US have some level of both vision and hearing loss.</p>
             </div>
           </div>
         </div>
@@ -94,9 +94,9 @@
           <img src="images/senseamp2.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
+              <h1>An effective way to communicate</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              
             </div>
           </div>
         </div>
@@ -104,9 +104,9 @@
           <img src="images/senseamp3.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
+              <h1>No more limitations</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              
             </div>
           </div>
         </div>
@@ -126,25 +126,25 @@
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <div class="container marketing" id="about" style="padding-top:60px;">
+    <div class="container marketing" style="padding-top:60px;">
 
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2>Heading</h2>
+          <img class="img-rounded" src="images/communicate.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>Communicate</h2>
           <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2>Heading</h2>
+          <img class="img-rounded" src="images/interact.png" style="width: 140px; height: 140px;">
+          <h2>Interact</h2>
           <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2>Heading</h2>
+          <img class="img-rounded" src="images/experience.png" style="width: 140px; height: 140px;">
+          <h2>Experience</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
@@ -153,12 +153,12 @@
 
       <!-- START THE FEATURETTES -->
 
-      <hr class="featurette-divider">
+      <hr class="featurette-divider" id="about">
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Senseamp. <span class="text-muted">The solution for Deaf-Blindness.</span></h2>
+          <p class="lead">Android application... Deaf-blind has a unique experience of the world extends only as far as the fingertips can reach.</p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
@@ -177,12 +177,46 @@
         </div>
       </div>
 
+      <hr class="featurette-divider" id="team">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-3" style="text-align: center;">
+          <img class="img-circle" src="images/photo-jaime.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h3>Jaime Cervantes</h3>
+          <p>Johns Hopkins University</p>
+          <p><a class="btn btn-default" href="https://www.facebook.com/profile.php?id=7952986&fref=ts" target="_blank" role="button">+ more info &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-3" style="text-align: center;">
+          <img class="img-circle" src="images/photo-luis.jpg" style="width: 140px; height: 140px;">
+          <h3>Luis Villavicencio</h3>
+          <p>Virginia Tech</p>
+          <p><a class="btn btn-default" href="https://www.facebook.com/tavocenci?fref=ts" role="button" target="_blank" >+ more info &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-3" style="text-align: center;">
+          <img class="img-circle" src="images/photo-miguel.jpg" style="width: 140px; height: 140px;">
+          <h3>Miguel Cotrina</h3>
+          <p>University of Maryland, College Park</p>
+          <p><a class="btn btn-default" href="https://www.facebook.com/miguel.cotrina" role="button" target="_blank" >+ more info &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-3" style="text-align: center;">
+          <img class="img-circle" src="images/photo-brian.jpg" style="width: 140px; height: 140px;">
+          <h3>Brian Pajares</h3>
+          <p>University of Maryland, College Park</p>
+          <p><a class="btn btn-default" href="https://www.facebook.com/briandavidp?fref=ts" role="button" target="_blank" >+ more info &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
       <hr class="featurette-divider" id="contact">
 
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading" style="margin-top:20px;">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.  
+
+          </p>
+          <img src="images/github-logo.png" height="25"/> <a href="https://github.com/JaimeIvanCervantes/senseamp" target="_blank" >our repository</a>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive" src="images/logo-medium.png" style="padding-left:150px;" >
@@ -235,6 +269,17 @@
         jQuery('html, body').animate({scrollTop: $('#about').offset().top}, duration);
         return false;
     })
+     jQuery('#menu-team').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: $('#team').offset().top}, duration);
+        return false;
+    })
+     jQuery('#menu-home').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: $('#myCarousel').offset().top}, duration);
+        return false;
+    })
+
     </script>
   </body>
 </html>
